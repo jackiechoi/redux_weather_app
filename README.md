@@ -1,5 +1,7 @@
 #ReduxWeatherApp
-Weather forecast browser web app that lets users search for cities.
+
+
+Weather forecast browser web app that lets users search for cities and retrieve weather data: temperature, pressure, humidity.
 - Using a third-party API that retrieves forecasted weather data for the next 5 days from the point of the search
 - The app will then store and display the data in a table with rows that become added every time a search is run
 - Columns: city, temperature, pressure, humidity. Weather data will be shown in charts
