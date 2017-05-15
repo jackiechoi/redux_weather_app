@@ -13,6 +13,10 @@ export function fetchWeather(city) {
 	const url = `${ROOT_URL}&q=${city},us`;
 	//axios makes the ajax request in the form of get, with the url supplied, and returns a promise. Then the promise is passed in payload property of the action.
 	const request = axios.get(url);
+	//promise is a data structure that doesn't actually contain any of the request data
+	console.log('Request': request);
+
+	//instead, we return the promise(reqest) as the payload (see below)
 
 	return {
 		type: FETCH_WEATHER,
