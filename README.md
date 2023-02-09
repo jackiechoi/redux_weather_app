@@ -13,7 +13,7 @@ Challenges to solve:
 
 #Dealing with Redux app in which the state is changing significantly
 
-Components/Containers
+Components
 1. SearchBar
     - It modifies the state of the application by dispatching action / calling action creator. When a user enters a search term, this component makes an API request
     - SearchBar will function as a container as opposed to a pure react component, as it needs to communicate with Redux
